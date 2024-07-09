@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 1</title>
+        <style>
+            body{
+                padding: 2%;
+                background-color: rgb(240, 240, 240);
+                background-image: url('background_img.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Task</h1>
+        <h2>Learning Objectives</h2>
+        <p>
+            This exercise aims to capture the essence of HTML without the use of CSS and the interactive elements brought by JavaScript.<br>
+            The student must be able to:
+            <ul>
+                <li>Differentiate between different components of an HTML file.</li>
+                <li>Apply stylistic features to the components.</li>
+                <li>Make the webpage interactive without using JS.</li>
+            </ul>
+        </p>
+        <h3>Task: Create a form</h3>
+        <ol>
+            <li>First name</li>
+            <li>Last name</li>
+            <li>Email - must only accept emails</li>
+            <li>Phone number</li>
+        </ol>
+        <h2>Generic Form</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="phonenum">Phone number:</label><br>
+            <input
+            type="number"
+            id="phone"
+            name="phone"
+            minlength="11"
+            maxlength="12"
+            required
+            />
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+          <br>
+          <br>
+          <b>Question: How to fix length of digits to be entered?</b>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="mailto:ayzah.gardezi21@gmail.com" style = "float: right;">Contact me</a>
+
+    </body>
+</html>

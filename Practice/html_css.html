@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url('background_img.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: hsla(187, 100%, 83%, 0.5);
+            }
+            h1 {
+                font-family: 'Segoe UI';
+                border: 1px solid green;
+            }
+            p{
+                border: 2px solid powderblue;
+                padding: 30px;
+                margin: 20px;
+            }
+            a:link{
+                color:green;
+                background-color: transparent;
+                text-decoration:none;
+            }
+            a:visited{
+                color:pink;
+                background-color:transparent;
+                text-decoration:none;
+            }
+            a:hover{
+                color:red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active{
+                color:yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        </style>
+        <title>
+            Incorporating Style
+            <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> <!-- "rel" - relationship of icon with the document-->
+        </title>
+    </head>
+
+    <body>
+        <h1>First heading of the page.</h1>
+        <a href = "#Todo">Go to to do list</a>
+        <p>Adding a paragraph right here</p>
+
+
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
+
+        <br>
+        <a href="main.html" target= "_blank">Original main page</a>
+        <br>
+
+        <br>
+        <a href="main.html">
+            <img src="fur.jpg" alt="HTML tutorial" style="width:42px;">
+        </a>
+        <br>
+        
+        <br>
+        <button onclick = "document.location = 'main.html'">Initial Main Page</button>
+        <br>
+        
+        <p><img src="fur.jpg" alt="Fur" style="float:right; width:42px;">
+            The image will float to the right of the text.</p>
+            
+        <br>
+        <p><img src="fur.jpg" alt="Fur" style="float:left; width:42px;">
+            The image will float to the left of the text.</p>
+        <br>
+        <br>
+        <a href="mailto:ayzah.gardezi21@gmail.com">Email me</a>
+
+
+            <p style = "font-size: larger;">
+                Filler Text:
+                HTML Links - Create Bookmarks
+                HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.
+
+                Create a Bookmark in HTML
+                Bookmarks can be useful if a web page is very long.
+
+                To create a bookmark - first create the bookmark, then add a link to it.
+
+                When the link is clicked, the page will scroll down or up to the location with the bookmark.
+
+                Example
+                First, use the id attribute to create a bookmark:
+
+                Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page:
+
+                Example
+                You can also add a link to a bookmark on another page:
+            </p>
+
+        To do:
+        <ul id="Todo">
+            <li>Complete Super Mario</li>
+            <li>upload more stuff on github</li>
+            <li>start animation in unity</li>
+            <li>start 2D animation</li>
+            <li>Read</li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Animal</th>
+                <th>Colour</th>
+                <th>Species</th>
+                <th>Like it?</th>
+            </tr>
+            <tr>
+                <td>lion</td>
+                <td>gold</td>
+                <td>mammal</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>tiger</td>
+                <td>orange and black</td>
+                <td>mammal</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>snake</td>
+                <td>green</td>
+                <td>reptile</td>
+                <td>no</td>
+            </tr>
+        </table>
+
+        <ol>
+            <li>Honey</li>
+            <li>Salt</li>
+            <li>Sugar</li>
+        </ol>
+
+        <span>Hello World</span>
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>black</dd>
+            <dd>white</dd>
+            <dd>creamy</dd>
+            <dd>bitter</dd>
+            <dt>Cat</dt>
+            <dd>White</dd>
+            <dd>black</dd>
+            <dd>brown</dd>
+        </dl>
+    </body>
+</html>
